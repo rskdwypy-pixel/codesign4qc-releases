@@ -3,12 +3,12 @@
     <channel>
         <title>Codesign4QC</title>
         <item>
-            <title>0.3.2</title>
-            <pubDate>Sat, 10 Oct 2026 23:09:55 +0800</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <title>0.3.3</title>
+            <pubDate>Sun, 11 Oct 2026 00:49:26 +0800</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.2-x86_64.zip" length="204602762" type="application/octet-stream" sparkle:edSignature="bIP0by+e+k+nWRM3kackGvZMjqxhQ5sKI4Nvtx19LWGJjoGlB63/h4Hv0v9vHjw5MJZkyIVD5ZmBPxO8IHBICw=="/>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.3-x86_64.zip" length="204602789" type="application/octet-stream" sparkle:edSignature="ga3+5dgxid2HQgyk+bO8ZlDZguV4QiSHd/+Ig0qhEHh7RiTEv3hShTrSMUXH9xUrpenagzd9IGFcc0peqhPYCA=="/>
         </item>
     </channel>
 </rss>

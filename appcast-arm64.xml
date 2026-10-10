@@ -3,22 +3,13 @@
     <channel>
         <title>Codesign4QC</title>
         <item>
-            <title>0.3.2</title>
-            <pubDate>Sat, 10 Oct 2026 22:49:31 +0800</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <title>0.3.3</title>
+            <pubDate>Sun, 11 Oct 2026 00:32:56 +0800</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.2-arm64.zip" length="190794534" type="application/octet-stream" sparkle:edSignature="rDUUN957ngQkfrdbRx2KeYqtdxBoGE3N8y9lpPLSvOUVzgH2Ah+4w2kMugVx1TfIAOB2isb9mgn/BsHkkxCXAw=="/>
-        </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Sat, 10 Oct 2026 22:24:15 +0800</pubDate>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.2-arm64.zip" length="190794537" type="application/octet-stream" sparkle:edSignature="zhE0X25bIwmU6Njv1uDwhP1uPHH5kYetfI7sjl3I0Kc8R1UfnCPHSIH6dUNuXVMvTaFlZhNStWsOQ2jVYCEzDQ=="/>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC-0.3.3-arm64.zip" length="190794254" type="application/octet-stream" sparkle:edSignature="fgxSean7ImoRGg+c1OehGagBIp7ZKHcKZhNqyo5Clqo3LkQoMGEG4Oo/wGBWEqonxTA5oqBLdwfRnyZS5H4NCA=="/>
         </item>
     </channel>
 </rss>
