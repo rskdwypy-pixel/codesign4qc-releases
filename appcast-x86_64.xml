@@ -8,7 +8,15 @@
             <sparkle:version>31</sparkle:version>
             <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/rskdwypy-pixel/codesign4qc-releases/main/Codesign4QC-0.3.5-x86_64.md</sparkle:releaseNotesLink>
+            <description><![CDATA[<div>
+本次更新：<br>
+• 新增「导出/导入全部配置」(软件设置)：换机或新机一键恢复账号与资源<br>
+• 迁移时描述文件的分类会一并恢复<br>
+• 系统存储清理：整批删除只需输入一次管理员密码<br>
+• 资源详情的分类可直接修改，签名页分组同步生效<br>
+• 更新提示现在会显示版本说明<br>
+</div>
+]]></description>
             <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.5-x86_64.zip" length="204648368" type="application/octet-stream" sparkle:edSignature="RAq6oCAKFDe1Xkan9In/eO9w2WRL5dRZd0C7yDYHqhWZ5T2vA913+hZoojgoa5MsxCZQOkn2hw7wF+oVNixeAw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC31-29.delta" sparkle:deltaFrom="29" length="1213514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oLhamZXkXFQ+U5FnJPZHw+Ji4lnAiQIcpSlxCgno61/15RCTJ66oZ1axv34ADkkVnH/+tiZ84aRCcKGfh+gFBQ=="/>
@@ -22,9 +30,6 @@
             <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.4-x86_64.zip" length="204612938" type="application/octet-stream" sparkle:edSignature="dUiWQpgi6h1rcsJW1Ak8cQj/O5d5PygInJ3TtFfZ4y/G7x3y0LPqZY2eGvZj5ZHZgykA2Olmb6neA8y7PAWNBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC29-27.delta" sparkle:deltaFrom="27" length="1050046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fZk+Pdmsl04DZQzLo42JrXDYSjcKyWwWn1QT9ikavx+tu5fu9hjGA2XtpAU+dpkR8WLk0wdGaXasPQwujLzgAg=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>0.3.3</title>
