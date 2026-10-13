@@ -4,6 +4,24 @@
         <title>Codesign4QC</title>
         <item>
             <title>0.3.6</title>
+            <pubDate>Tue, 13 Oct 2026 19:15:58 +0800</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<div>
+• 修存储清理崩溃：失效签名身份重复 SHA-1 触发 Dictionary 致命错误<br>
+• 配置导入链路三连修 + 应用自我卸载<br>
+</div>
+]]></description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.6-x86_64.zip" length="205015380" type="application/octet-stream" sparkle:edSignature="/Vsby1hNe++RdA4KSnU9JDdkBVXOGVD4a3ued0Xh/y+s+6naIIh9yBbUgOctul4T0tQlCNndhSwo87X/+c/hAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC40-31.delta" sparkle:deltaFrom="31" length="14392594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9ZG1O/ArQb0iUi64tPWDTE16VEttnZPsQeY/9XIrppOubBDv+k/YjRwkCaVDN7d+t4N6sURA50itGhfcaf98Dg=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC40-29.delta" sparkle:deltaFrom="29" length="14465310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="16MqPuPtuwV1C9l3UutO7xd+kgomTVN5PioHPr0nDLsggKsko6m3nvsCFs5G0185O8LFv750JJsynHBXT6CICQ=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC40-27.delta" sparkle:deltaFrom="27" length="14493690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TwAD5AZmp6Fq9gF6aIk2Yf2kpaB2YY4LYapA9/8pJPHDUEVzs3ccqkLe3UqDUP6hx1Mkzz0R8WFnj3vBj5nQCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.3.6</title>
             <pubDate>Tue, 13 Oct 2026 14:59:29 +0800</pubDate>
             <sparkle:version>39</sparkle:version>
             <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
@@ -34,24 +52,6 @@
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC38-31.delta" sparkle:deltaFrom="31" length="14279694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dPemuN6NhVEp+bVSF98rsMs7lnSo8eXw72vKrL2smOLoHQZNQECZNlOM0xBhIkig9VmrkuT0+otTELEBBiJGDg=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC38-29.delta" sparkle:deltaFrom="29" length="14408994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+t6/7iiwytwIt0lBw5O81hin3RAm2yVGE7ewv9fR8EQzm3aW5msdQI2k1AaiaLKpstWcdJZQJpow6gl7/FL1CQ=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC38-27.delta" sparkle:deltaFrom="27" length="14433846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xyly/s3p2EkvsiiHaW86Wr+xqxWKEEP0t2fRUF6ef99YN3rHVbgemDre8euJAbLuuLmYlE3zmXP98FotEbQaDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.3.6</title>
-            <pubDate>Mon, 12 Oct 2026 21:23:22 +0800</pubDate>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<div>
-• 提高稳定性<br>
-• 官网改版：修中文换行、去重复表达、精简功能卡片、充实工作流<br>
-</div>
-]]></description>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.6-x86_64.zip" length="204723160" type="application/octet-stream" sparkle:edSignature="hhVvetVA0ddbIETud8YoajGbaY+avZ1Q/P/QmSRsnyudWSF46UocbQkLnW1dDs5OmHkxggMQT25G/MNeQXHBBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC37-31.delta" sparkle:deltaFrom="31" length="1323210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mgdYM37tQhPkHrMVKMzPr2dDc47hb0GZfg6M4V5wFJhKdBM67gGpC6K9+7lv+kXNx5/VkkK9+cfA1tIwW9weAA=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC37-29.delta" sparkle:deltaFrom="29" length="1457802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/Cy23oIPjaPQHuiNz60AyQCiMnl+K3texyXobkv+qiZtw6848mr+O2p5t9TuaaakKjaTv8oVnloVY6wOnWhmBw=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC37-27.delta" sparkle:deltaFrom="27" length="1481130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="C9995Q/AgI3MZFthrrkJLW7ioH8mWeZgtysZ68TVNOGGUOSXD+Yf9EcUn5/r3UPc78iysA1NiVgJxZeQ5JtSAg=="/>
             </sparkle:deltas>
         </item>
     </channel>
