@@ -4,6 +4,29 @@
         <title>Codesign4QC</title>
         <item>
             <title>0.3.6</title>
+            <pubDate>Tue, 20 Oct 2026 22:15:40 +0800</pubDate>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<div>
+本次更新：<br>
+<br>
+• 新增 needle 回填（反篡改）：把原包签名里的标识串（应用标识 / 团队标识 / 钥匙串组）回填到重签后的 App，避免部分硬化运行时在自查签名串失败后直接退出。三栏可留空让引擎自动从原包签名推导，也可手填；一旦开启，回填失败就直接报错中止，不会悄悄出一个"能装、一启动就自杀"的包。<br>
+• needle 开关不再记住上次的勾选状态：每次打开签名页都是默认关闭，避免换了一个不相关的包时被上次状态影响。<br>
+• 高级选项里的"统一增强运行时"不再是单独开关，改为并入"注入"资源列表，像勾选其他动态库一样选择是否启用。<br>
+• 修复点击"开始签名"后必然崩溃的问题。<br>
+• 命令行新增 --auto-profile：按"应用覆盖关系 + 证书匹配 + 未过期"自动从描述文件目录里挑出唯一可用的签名身份，免去手动查证书 SHA-1；候选不唯一或条件不满足时会给出明确原因，不会靠猜测签名。<br>
+</div>
+]]></description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.6-x86_64.zip" length="205059864" type="application/octet-stream" sparkle:edSignature="1dfGdTP9VA1nN/PRLfbdE9U9CRSC7KaZK2DnrBP0sdRHqbVE/zcD/zseNXxEnnMSEq3EW8Zy606ERZceOP2eBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC41-31.delta" sparkle:deltaFrom="31" length="14518130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U+CdCxuAU+b9sAydQMoeYjvO2c5ygVdVSpb6gKHM+WnLVzeBOC6CZoUWLDU5cvD2ARcksyEh6ZAq1F8zY7ghAQ=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC41-29.delta" sparkle:deltaFrom="29" length="14580814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3cb3q+nUXZY/Ps1oNZZIWDhCheNJrflGlq7RoHs7QoBEDXddy3Ttysl6+vn/G/Bj3jZi7dctFJfHl30MDbVdDA=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC41-27.delta" sparkle:deltaFrom="27" length="14608930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dsQskCGsiuC3pGt5jhE5wMDh69wJ9D9KG1LsL/gh2+YQ9vyEYiXn4LD1UyI6XSluaRDVIPkqhvpA7FDCx7YRDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>0.3.6</title>
             <pubDate>Tue, 13 Oct 2026 19:15:58 +0800</pubDate>
             <sparkle:version>40</sparkle:version>
             <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
@@ -35,23 +58,6 @@
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC39-31.delta" sparkle:deltaFrom="31" length="14344810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FYs2X2KABEAol3ghhze+LYRBrNYs1tHmDUP0pqPaBhqM2Efux+1iHVlakKxlWZpjPDh881KR8nI92hsECCDFAw=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC39-29.delta" sparkle:deltaFrom="29" length="14432482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rlYJG9zCLAes/wig2KAPoT/ijI7Pqj4KoTZ5tURl9QE+l8u1P6VY7sMFkZEbzMOmu0Pi4L5Au0fc0+riEjpiCw=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC39-27.delta" sparkle:deltaFrom="27" length="14459850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K9vDnJs2+B9tNlY/SYh5+5pdH4C552Mvq2ARQZ1uBWuDaKomOsXF5+MC1E0ZpedJhkBVLYv0rAdu6HoPqBp5AA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.3.6</title>
-            <pubDate>Tue, 13 Oct 2026 11:38:39 +0800</pubDate>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<div>
-• 提高连接稳定性<br>
-</div>
-]]></description>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC-0.3.6-x86_64.zip" length="204986654" type="application/octet-stream" sparkle:edSignature="3s4mGsgRlsczR7Tv1c9t1aknGw+nx1w+w+vvr1/6JtTvGqmXRyso8CqlztnsPj+uTVhMMYf+WCiak3bMuVwhDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC38-31.delta" sparkle:deltaFrom="31" length="14279694" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dPemuN6NhVEp+bVSF98rsMs7lnSo8eXw72vKrL2smOLoHQZNQECZNlOM0xBhIkig9VmrkuT0+otTELEBBiJGDg=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC38-29.delta" sparkle:deltaFrom="29" length="14408994" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+t6/7iiwytwIt0lBw5O81hin3RAm2yVGE7ewv9fR8EQzm3aW5msdQI2k1AaiaLKpstWcdJZQJpow6gl7/FL1CQ=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/Codesign4QC38-27.delta" sparkle:deltaFrom="27" length="14433846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xyly/s3p2EkvsiiHaW86Wr+xqxWKEEP0t2fRUF6ef99YN3rHVbgemDre8euJAbLuuLmYlE3zmXP98FotEbQaDg=="/>
             </sparkle:deltas>
         </item>
     </channel>
