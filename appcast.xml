@@ -1,16 +1,36 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Codesign4QC</title>
+        <item>
+            <title>0.3.6</title>
+            <pubDate>Tue, 03 Nov 2026 17:57:39 +0800</pubDate>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;div&gt;
+本次更新：&lt;br&gt;
+&lt;br&gt;
+• 签名页面新增深度检测与报告入口，集中展示 IPA 检测结论和实时处理进度。&lt;br&gt;
+• 按兼容性复用已有检测结果，减少不必要的重复扫描，并支持多描述文件的批量签名流程。&lt;br&gt;
+• 更新内置离线引擎，改善中文文件名和 Framework 组件处理的兼容性。&lt;br&gt;
+• 内置测试组件新增听云日志与应用日志分类，支持暂停查看、脱敏分享，并优化高频日志下的流畅度。&lt;br&gt;
+• 修复测试组件部分控件操作、日志接入及诊断页面卡顿问题。&lt;br&gt;
+• 完善签名身份、钥匙串访问组及签名资源处理，提升重签流程的稳定性。&lt;br&gt;
+• 提供同时支持 Intel 与 Apple 芯片的通用更新包，并完成 Developer ID 签名和 Apple 公证。&lt;br&gt;
+&lt;/div&gt;
+</description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/v0.3.6-build45/Codesign4QC-0.3.6-build45-universal.zip" length="427197485" type="application/octet-stream" sparkle:edSignature="kZvL++gKXPy1Us2rMyJOdXSuI38NyJwxYedpCyrHjjbH+JOTVzmURPNnt3ELxkgi8XquuzPd//xemPgPOSglDw==" />
+        </item>
         <item>
             <title>0.3.1</title>
             <pubDate>Sat, 10 Oct 2026 14:55:28 +0800</pubDate>
             <sparkle:version>22</sparkle:version>
             <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.1.zip" length="393646891" type="application/octet-stream" sparkle:edSignature="u64ZAP9Ai6w6tSL1eRgNhH4hSoaz81WgRWEpHiOJRDeHCbURZkUcG/Rr+Qt+2Y/W7rH7z5XkMJkiZ75EXLxOCA=="/>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.1.zip" length="393646891" type="application/octet-stream" sparkle:edSignature="u64ZAP9Ai6w6tSL1eRgNhH4hSoaz81WgRWEpHiOJRDeHCbURZkUcG/Rr+Qt+2Y/W7rH7z5XkMJkiZ75EXLxOCA==" />
             <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC22-21.delta" sparkle:deltaFrom="21" length="826082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vJ8e9rovP5eDSNT7HzT6THURW6MWiL4wmHkUJ0imyBBmq2q23VVnS2OweSPpOap0krfc1xkdPBEe0P3h2do3Dw=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC22-21.delta" sparkle:deltaFrom="21" length="826082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vJ8e9rovP5eDSNT7HzT6THURW6MWiL4wmHkUJ0imyBBmq2q23VVnS2OweSPpOap0krfc1xkdPBEe0P3h2do3Dw==" />
             </sparkle:deltas>
         </item>
         <item>
@@ -19,7 +39,7 @@
             <sparkle:version>21</sparkle:version>
             <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.0.zip" length="393647434" type="application/octet-stream" sparkle:edSignature="siqDL/f46YdiDRw8/e1brisIObAZgrx7barRlZLMi/DJKDfD0bN70W1V3oe9zDYFpIe29D8CHSOQ60hrjmhVBw=="/>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds/Codesign4QC-0.3.0.zip" length="393647434" type="application/octet-stream" sparkle:edSignature="siqDL/f46YdiDRw8/e1brisIObAZgrx7barRlZLMi/DJKDfD0bN70W1V3oe9zDYFpIe29D8CHSOQ60hrjmhVBw==" />
         </item>
     </channel>
 </rss>
