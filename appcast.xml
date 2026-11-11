@@ -2,6 +2,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Codesign4QC</title>
+<item>
+            <title>0.3.6</title>
+            <pubDate>Wed, 11 Nov 2026 17:52:27 +0800</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description>&lt;div&gt;
+本次更新：&lt;br&gt;
+&lt;br&gt;
+• 修复部分旧版本收不到自动更新提示的问题：更新后应用会按电脑芯片（Intel / Apple 芯片）自动订阅对应的更新源，此后每版都能正常收到。&lt;br&gt;
+• 升级内置反检测引擎至 95392b4c 同源双架构（发行签名版）：收录九江 getStorage 处理段、新增 minimal 模式与业务修复 hook、检测改进。&lt;br&gt;
+• 修复原包听云识别范围，隔离原包听云命名空间并保留用户 COPY 组件。&lt;br&gt;
+• 本包为同时支持 Intel 与 Apple 芯片的通用迁移包，已完成 Developer ID 签名与 Apple 公证。&lt;br&gt;
+&lt;/div&gt;
+</description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/v0.3.6-build50/Codesign4QC-0.3.6-universal.zip" length="444229859" type="application/octet-stream" sparkle:edSignature="P36L942rZdnmiS04UsFL1ke3lFugMBSf8Px6Zk1xb9FE9G+haUjQT83PUgKIhFQUbcy7XPnN705eoIclX6fnBg==" />
+        </item>
         <item>
             <title>0.3.6</title>
             <pubDate>Tue, 03 Nov 2026 17:57:39 +0800</pubDate>
