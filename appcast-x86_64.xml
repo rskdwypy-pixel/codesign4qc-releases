@@ -3,6 +3,19 @@
     <channel>
         <title>mogoTools</title>
         <item>
+            <title>1.4</title>
+            <pubDate>Thu, 26 Nov 2026 22:23:09 +0800</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools-1.4-x86_64.zip" length="338357495" type="application/octet-stream" sparkle:edSignature="Cv1TxA83gJ+zrtWYt/CbIk4jJpnb9+ovFu/sYHsJur8WsrN1YllaPR7FhDtmqGB5N/7tVKbSXNPtAfDhZ9ruBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools61-60.delta" sparkle:deltaFrom="60" length="2066882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JJznTQyfg+kUis1J/jV+CRJc0+OSBQ+SH2MSZSjd3G7IHWQJXYOLNvKMis07n91wL6q3tfKamVzwlZZqRBm5CQ=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools61-58.delta" sparkle:deltaFrom="58" length="2919818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6A6FkvfCXMdWv6s+fAHHsrYhbIIzMGe5n9n49RSMulqUoMTvmD48KazuHJX6TFtYn3yrJFMVdxDI1qaE6dyBDg=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools61-57.delta" sparkle:deltaFrom="57" length="9623582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lP8Etkjw+wuLO0OmPG9CcqdbF2af0uF9YpDo7FvcZ+7rR2wGPAXGZTxlL2Vc1yWNGZ5UiK0PuBMHNz4T7tzJBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Thu, 26 Nov 2026 15:49:46 +0800</pubDate>
             <sparkle:version>60</sparkle:version>
@@ -50,27 +63,6 @@ mogoTools 1.1 更新内容<br>
             <sparkle:deltas>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools58-57.delta" sparkle:deltaFrom="57" length="9269698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a5cLjQlrXTJZlpolCqKar1o2Ov8Mu5iQ79vsOhWo4yXZWy9R3qZSn14HtXOMsT1CkXu0QQDY/D5SliJA7bAuBg=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 26 Nov 2026 10:35:31 +0800</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<div>
-mogoTools 1.0 正式版<br>
-<br>
-本次从 0.4.0 跨越到 1.0，集中交付云存储、应用分发、工具箱与设置页四条主线，并修复多项稳定性问题。<br>
-<br>
-• 云存储：新增飞驰网盘账号卡片与文件浏览器；登录节流改 60 秒滑动窗口、登录后预取根目录；上传不再自动公开分享，改为「开启分发」才创建公开链接；上传自动选择剩余容量最大的账号；搜索支持跨全部网盘。<br>
-• 应用分发：接入网盘自动上传与多账号轮转、国内 CDN 加速；修复下载卡 0% 与进度显示；分发版本列表改为「v序号·应用名·TeamID」。<br>
-• 签名中心：本地应用与云存储页面改版；兼容旧版 IPA 索引缺字段；修正网盘容量单位（KB→字节）。<br>
-• 工具箱：新增 JSON 解析、日志分析、格式转换（时间戳↔时间到纳秒、人民币小写→大写）三款项目内原生工具；日志分析支持拖入文件；截图/OCR/录屏/卸载/清理等工具改为离线原生实现并统一授权最小化。<br>
-• 设置页：收成单页分组表单，连接诊断内嵌；存储占用改为按需分析；环境检查可显示结果并一键修复复检；隐藏冗余侧栏让表单铺满。<br>
-• 稳定性：修复实时日志延迟、WebView 启动失败；代码审计 12 项问题修复 11 项；Apple SAP 组件改为 base64 归档以通过公证。<br>
-</div>
-]]></description>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools-1.0-x86_64.zip" length="328632823" type="application/octet-stream" sparkle:edSignature="1yOR1f21WOpSPb+ACiwSUG4PrrZ3YBzWmNpQ/tEqVJgSxvsFIaFxScmZZtKhEKpiasX4LQFANpGd0jGVbyGNCQ=="/>
         </item>
     </channel>
 </rss>

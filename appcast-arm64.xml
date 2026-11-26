@@ -3,6 +3,33 @@
     <channel>
         <title>mogoTools</title>
         <item>
+            <title>1.4</title>
+            <pubDate>Thu, 26 Nov 2026 20:58:14 +0800</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div>
+mogoTools 1.4 更新内容<br>
+<br>
+本次为功能与稳定性修复版本，集中解决 1.2 装机实测后反馈的几处显示与交互问题。<br>
+<br>
+• 修复「我的设备 - 设备信息」里设备颜色显示为色号「1」的问题：取数改用机身外壳色字段（DeviceEnclosureColor / DeviceHousingColor），并按爱思助手 BackColor 色轴重新校准颜色码表，覆盖 27 个机型、116 组颜色配对。<br>
+• 修复从一台 iPhone 切换到另一台时，设备偶发显示「未连接」的问题：设备选中状态在刷新/接入/切换/断开四个入口统一校正，应用加载任务与设备引导任务隔离，避免切换过程中在途任务被误取消。<br>
+• 投屏体验优化：点击投屏、手机上启动 mogo 后，App 会主动弹出直播选择列表（Broadcast 列表），不再需要去控制中心长按屏幕录制找 mogo；在列表中选择 mogo 并点「开始直播」即可。同时修复 iPad 弹窗锚点、陈旧选择状态残留与主线程问题。<br>
+• 应用分发体验优化：开启分发服务后默认同时开启公网访问；开启/关闭公网访问按钮增加 loading 与点击反馈；从云存储恢复应用时补充必要的过程显示；签名版本支持多选，右键菜单新增「上传网盘」与「开启分发」，可并行执行。<br>
+• 1.4 包含 1.2 全部修复：公证包调试隧道守护进程快照属主归一化、内置 Tailscale Funnel 系统代理注入与授权地址兜底，以及 1.1 全部功能（三栏「描述文件管理」支持 .mobileconfig 与 .mobileprovision 拖入即装、iOS 17+ 虚拟定位修复、屏蔽 iOS 更新不再弹日志浮层、内置 Tailscale Funnel 公网隧道与 mogo 设备资料页）。<br>
+</div>
+]]></description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-1.4-arm64.zip" length="360693643" type="application/octet-stream" sparkle:edSignature="lV3Bs4eJPy6mBCcg6Drx2G8XlFtlPMkeaasrxcD76UCKNOdYA348vwlPGbT1cN3zL0b9ZY6fFz+SOJEbY39BAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools61-60.delta" sparkle:deltaFrom="60" length="13096266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rRx4ZQ6RZdZeG+aB0wPHe1+BE0BMgd2MIxDfmUPSSA/53Ix8GpfD08dB8oKOUW3VCldrUkLIJTyIXucePOENCw=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools61-58.delta" sparkle:deltaFrom="58" length="13905946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UrKPxYsDJ9KNBeWqJTnpz+ZOcxn9BM9EFviHDA0PJVKqgXra5Cz1JL9QAgh4tYPfBhXYT60VY2nWBuFruaEHBQ=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools61-57.delta" sparkle:deltaFrom="57" length="19648342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PF1qFngv5ydLppF+5rpN8w0P5ro5VcI+StZ1407IH0PcC712sMm/raGFt0tJm8k3H+KmmUgTpQ+iBgtToEc+Cg=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools61-53.delta" sparkle:deltaFrom="53" length="100545426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mo5SGN4qcWA8FBV56Wa3YwP26wsR6E9MqsroQd7LuIqABq+3uWMB+cQRjZwLB84Jzgh2YeG4Cl4rsKolhP3zBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Thu, 26 Nov 2026 15:36:14 +0800</pubDate>
             <sparkle:version>60</sparkle:version>
@@ -53,31 +80,6 @@ mogoTools 1.1 更新内容<br>
             <sparkle:deltas>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools58-57.delta" sparkle:deltaFrom="57" length="8253090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5XCxNGCh5XAJXhGRTByvS3f2bPRXn0fMNxCwV+isZHSZx0ZoEYbLmGueUnE0B7mYm5e5/HwfU7ct581in4xQBA=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools58-53.delta" sparkle:deltaFrom="53" length="90247378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tfiIbtxWq4RbbG4ObMYbCYUBHUGG1s8PwaehL3hukrVKKUD9zcOt3IZLr8BYHHW/CijF3jcjLetfJ0ZirtjiDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 26 Nov 2026 10:02:47 +0800</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div>
-mogoTools 1.0 正式版<br>
-<br>
-本次从 0.4.0 跨越到 1.0，集中交付云存储、应用分发、工具箱与设置页四条主线，并修复多项稳定性问题。<br>
-<br>
-• 云存储：新增飞驰网盘账号卡片与文件浏览器；登录节流改 60 秒滑动窗口、登录后预取根目录；上传不再自动公开分享，改为「开启分发」才创建公开链接；上传自动选择剩余容量最大的账号；搜索支持跨全部网盘。<br>
-• 应用分发：接入网盘自动上传与多账号轮转、国内 CDN 加速；修复下载卡 0% 与进度显示；分发版本列表改为「v序号·应用名·TeamID」。<br>
-• 签名中心：本地应用与云存储页面改版；兼容旧版 IPA 索引缺字段；修正网盘容量单位（KB→字节）。<br>
-• 工具箱：新增 JSON 解析、日志分析、格式转换（时间戳↔时间到纳秒、人民币小写→大写）三款项目内原生工具；日志分析支持拖入文件；截图/OCR/录屏/卸载/清理等工具改为离线原生实现并统一授权最小化。<br>
-• 设置页：收成单页分组表单，连接诊断内嵌；存储占用改为按需分析；环境检查可显示结果并一键修复复检；隐藏冗余侧栏让表单铺满。<br>
-• 稳定性：修复实时日志延迟、WebView 启动失败；代码审计 12 项问题修复 11 项；Apple SAP 组件改为 base64 归档以通过公证。<br>
-</div>
-]]></description>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-1.0-arm64.zip" length="351868592" type="application/octet-stream" sparkle:edSignature="19N0QDrzNTi8GlvTeuf6A1K2/VXZ7AcAyPP16yfHjZI7Dxe46l5oo0IYS1fg4RyJ0jBu7TDWWuqyeWpiwXv1Aw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools57-53.delta" sparkle:deltaFrom="53" length="83673006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GR/jXnMD2hs5NDIHGd8j73/0pEUv2G34bQLcvBN5REIn85nOZrq1swh8q237DDnIzyXBsIWEk7cSTPDVnErgBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
