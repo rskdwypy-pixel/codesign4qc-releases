@@ -1,42 +1,40 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Codesign4QC</title>
+        <title>mogoTools</title>
         <item>
-            <title>0.3.6</title>
-            <pubDate>Tue, 10 Nov 2026 22:30:38 +0800</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <title>1.0</title>
+            <pubDate>Thu, 26 Nov 2026 10:02:47 +0800</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description><![CDATA[<div>
-反检测引擎更新至 95392b4c 同源双架构（发行签名版）：收录九江 getStorage 处理段、新增 minimal 模式与业务修复 hook、bistoury 框架源码入仓与检测改进。修复原包听云识别范围，隔离原包听云命名空间并保留用户 COPY 组件。<br>
+mogoTools 1.0 正式版<br>
+<br>
+本次从 0.4.0 跨越到 1.0，集中交付云存储、应用分发、工具箱与设置页四条主线，并修复多项稳定性问题。<br>
+<br>
+• 云存储：新增飞驰网盘账号卡片与文件浏览器；登录节流改 60 秒滑动窗口、登录后预取根目录；上传不再自动公开分享，改为「开启分发」才创建公开链接；上传自动选择剩余容量最大的账号；搜索支持跨全部网盘。<br>
+• 应用分发：接入网盘自动上传与多账号轮转、国内 CDN 加速；修复下载卡 0% 与进度显示；分发版本列表改为「v序号·应用名·TeamID」。<br>
+• 签名中心：本地应用与云存储页面改版；兼容旧版 IPA 索引缺字段；修正网盘容量单位（KB→字节）。<br>
+• 工具箱：新增 JSON 解析、日志分析、格式转换（时间戳↔时间到纳秒、人民币小写→大写）三款项目内原生工具；日志分析支持拖入文件；截图/OCR/录屏/卸载/清理等工具改为离线原生实现并统一授权最小化。<br>
+• 设置页：收成单页分组表单，连接诊断内嵌；存储占用改为按需分析；环境检查可显示结果并一键修复复检；隐藏冗余侧栏让表单铺满。<br>
+• 稳定性：修复实时日志延迟、WebView 启动失败；代码审计 12 项问题修复 11 项；Apple SAP 组件改为 base64 归档以通过公证。<br>
 </div>
 ]]></description>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC-0.3.6-arm64.zip" length="215555875" type="application/octet-stream" sparkle:edSignature="AyvJEFCGrV6xrAZ8D9Df/m6FfpRWrp7TE3LdoIthoEx2VH11cAVJ3OAtWKpavYVOdJpi2InnkQym1F7ZYxhuDA=="/>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-1.0-arm64.zip" length="351868592" type="application/octet-stream" sparkle:edSignature="19N0QDrzNTi8GlvTeuf6A1K2/VXZ7AcAyPP16yfHjZI7Dxe46l5oo0IYS1fg4RyJ0jBu7TDWWuqyeWpiwXv1Aw=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC49-31.delta" sparkle:deltaFrom="31" length="39085314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="USwm+d6qAqKN17L3mr8iRAvzETpwl58sYlb9uKHCq5kjEds81PRY4o7CiFRUSv3dEsLCVFQZArfpdn/V64vaAw=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC49-29.delta" sparkle:deltaFrom="29" length="39140646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="15KuayKFR5MPSjXd5BWWW/8XoorCs4uvSkj8hPILxkyetaBjKPqWx55iF0pRFBmV0Mwr1Gu0wv26NOCxJbLcAg=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC49-27.delta" sparkle:deltaFrom="27" length="39164878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VR69jgHiTjQvJj4OQ4nq9Z1Uq62tg8dg+PN705oBwmVFI83xxlqPuy6JjxNQG9pTQQr1tZ78hNhUOBhJJhRECg=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools57-53.delta" sparkle:deltaFrom="53" length="83673006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GR/jXnMD2hs5NDIHGd8j73/0pEUv2G34bQLcvBN5REIn85nOZrq1swh8q237DDnIzyXBsIWEk7cSTPDVnErgBQ=="/>
             </sparkle:deltas>
         </item>
         <item>
-            <title>0.3.5</title>
-            <pubDate>Tue, 10 Nov 2026 21:53:39 +0800</pubDate>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
+            <title>0.4.0</title>
+            <pubDate>Tue, 24 Nov 2026 16:10:05 +0800</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC-0.3.5-arm64.zip" length="190837850" type="application/octet-stream" sparkle:edSignature="AV/pDhH+qYPbG3VKNiFKZd8P8vILDKFXAnYYZm7HaErjIul1fiz0xEVAgB5BTH8U8wOYHZ0pG1FCpDQ5AWvLAg=="/>
-        </item>
-        <item>
-            <title>0.3.4</title>
-            <pubDate>Tue, 10 Nov 2026 21:53:39 +0800</pubDate>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/Codesign4QC-0.3.4-arm64.zip" length="190805833" type="application/octet-stream" sparkle:edSignature="c5uWrfps5BqtmvoE5jJYZ4w5PPJBPrgWMSIXhguL1QS4lFJBMUXKjruNd2oniS/RZMINraDJKWBYDpfWj+1cAQ=="/>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-0.4.0-arm64.zip" length="272876131" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
