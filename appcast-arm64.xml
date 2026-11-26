@@ -3,6 +3,31 @@
     <channel>
         <title>mogoTools</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Thu, 26 Nov 2026 15:36:14 +0800</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div>
+mogoTools 1.2 更新内容<br>
+<br>
+本次为正式包修复版本，集中解决 1.1 公证安装后两个后台服务始终起不来的问题。<br>
+<br>
+• 修复 iOS 17+ 调试隧道后台服务在公证包中无法启动：守护进程先把受信快照归一化为 root:wheel 再验签，解决健康接口一直无响应、反复重启也不恢复的问题，虚拟定位所需的调试隧道得以正常就绪。<br>
+• 修复「开启临时公网访问」长时间停在「正在连接 Tailscale 网络…」、始终不出现登录地址：内置的 Tailscale Funnel 节点现在会自动读取 macOS 系统代理（scutil --proxy）并注入到自身网络环境，避免在系统代理 / fake-ip 网络下直连协调服务卡死；用户已显式设置的代理不会被覆盖，也可用环境变量关闭该行为。<br>
+• 内置公网节点同时补齐授权地址获取通道：除日志外直接轮询节点状态的 AuthURL / BackendState，两个日志通道都接入授权解析，避免授权链接被静默丢弃；超过 30 秒未取得授权地址时给出明确状态提示。<br>
+• 1.2 包含 1.1 全部功能：爱思同款三栏「描述文件管理」（支持 .mobileconfig 与 .mobileprovision，拖入页面即自动安装到当前设备）、iOS 17+ 虚拟定位修复、屏蔽 iOS 更新不再弹日志浮层、设备颜色正确显示、内置 Tailscale Funnel 公网隧道与 mogo 设备资料页。<br>
+</div>
+]]></description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-1.2-arm64.zip" length="360669257" type="application/octet-stream" sparkle:edSignature="PYy5ibL5gKBElUiehKqPH5UEpTciQVQOGjdoqtSPHAYcElpROoIqkl2E5Nh7kphAQng0Uib0jdxjac4N/jJvCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools60-58.delta" sparkle:deltaFrom="58" length="1284434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="57NfJb8ERyky4QJut45c5dqAqNo0kj+ZETs/hVJNJRYoG7OcGlkcDCHCGRk67A+LcSR171kiG8N4LlivpVP5Dw=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools60-57.delta" sparkle:deltaFrom="57" length="8252138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P2ThbPOWA7dC5Vp/m4tF7oa1ZY4lYlt8eIJ4N6Mk1i5SG1T1XnTdx1/pJH4cahrCi3hz4zMQzU+SgOdYQgs2CA=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools60-53.delta" sparkle:deltaFrom="53" length="90242078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E2HtUV4jHFDA0uxfNqGXQDnRWl3Kmh7IURmFmnxPGh3p/evWvlb5Be9h1bmrOcbUHyxBhH46vrBGphYAqbcMAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Thu, 26 Nov 2026 14:32:52 +0800</pubDate>
             <sparkle:version>58</sparkle:version>
@@ -54,15 +79,6 @@ mogoTools 1.0 正式版<br>
             <sparkle:deltas>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools57-53.delta" sparkle:deltaFrom="53" length="83673006" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GR/jXnMD2hs5NDIHGd8j73/0pEUv2G34bQLcvBN5REIn85nOZrq1swh8q237DDnIzyXBsIWEk7cSTPDVnErgBQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Tue, 24 Nov 2026 16:10:05 +0800</pubDate>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-0.4.0-arm64.zip" length="272876131" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>

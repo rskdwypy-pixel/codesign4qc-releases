@@ -3,6 +3,29 @@
     <channel>
         <title>mogoTools</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Thu, 26 Nov 2026 15:49:46 +0800</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<div>
+mogoTools 1.2 更新内容<br>
+<br>
+本次为正式包修复版本，集中解决 1.1 公证安装后两个后台服务始终起不来的问题。<br>
+<br>
+• 修复 iOS 17+ 调试隧道后台服务在公证包中无法启动：守护进程先把受信快照归一化为 root:wheel 再验签，解决健康接口一直无响应、反复重启也不恢复的问题，虚拟定位所需的调试隧道得以正常就绪。<br>
+• 修复「开启临时公网访问」长时间停在「正在连接 Tailscale 网络…」、始终不出现登录地址：内置的 Tailscale Funnel 节点现在会自动读取 macOS 系统代理（scutil --proxy）并注入到自身网络环境，避免在系统代理 / fake-ip 网络下直连协调服务卡死；用户已显式设置的代理不会被覆盖，也可用环境变量关闭该行为。<br>
+• 内置公网节点同时补齐授权地址获取通道：除日志外直接轮询节点状态的 AuthURL / BackendState，两个日志通道都接入授权解析，避免授权链接被静默丢弃；超过 30 秒未取得授权地址时给出明确状态提示。<br>
+• 1.2 包含 1.1 全部功能：爱思同款三栏「描述文件管理」（支持 .mobileconfig 与 .mobileprovision，拖入页面即自动安装到当前设备）、iOS 17+ 虚拟定位修复、屏蔽 iOS 更新不再弹日志浮层、设备颜色正确显示、内置 Tailscale Funnel 公网隧道与 mogo 设备资料页。<br>
+</div>
+]]></description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools-1.2-x86_64.zip" length="338286945" type="application/octet-stream" sparkle:edSignature="HCKG2AxjQ+oi/QdEdA9etcfdZGp3W+lzx9Z6D2vSzsSIFFP5R46WtJojITFaRezbsNYOUm+2eNtTs4G3E9fSBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools60-58.delta" sparkle:deltaFrom="58" length="1315834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="huGs/GRGCDEpjbIiij4e0Jv6PIsxldrS95R9TIsuUEgkuLKFwnIIdd3PdK8BRRgDbQsIajuNGyhM7mUuwJGrCA=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-x86_64/mogoTools60-57.delta" sparkle:deltaFrom="57" length="9275842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TLvRWRxvHIxKrURPTrCLbu6YG0KE0s8n5KuGc48eOdzR7A27dsyIBnCUv4TYZBLn3UFqHx0GbWU50on4yJ6TAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1</title>
             <pubDate>Thu, 26 Nov 2026 14:47:48 +0800</pubDate>
             <sparkle:version>58</sparkle:version>
