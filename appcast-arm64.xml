@@ -3,6 +3,32 @@
     <channel>
         <title>mogoTools</title>
         <item>
+            <title>1.5</title>
+            <pubDate>Fri, 27 Nov 2026 16:11:19 +0800</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div>
+本次更新（v1.5）：<br>
+<br>
+• 截图工具升级：框选时显示十字准星；截图后弹出标注浮窗（画笔/直线/箭头/矩形/椭圆/文字/序号/马赛克/橡皮擦共 9 种工具，支持撤销重做、保存复制、固定桌面置顶）；设置页新增全局快捷键录制（⌥⇧F 区域截图等 7 个动作）。<br>
+• 应用市场账号检查修复：不再把「系统 Apple ID」误认为 App Store 媒体账号；多账号时枚举全部匹配；账号不一致只提示、不再阻断建模。<br>
+• 设备信息页移除崩溃日志行的「查看归档」按钮（功能仍在诊断工具入口）。<br>
+• App Group 容器补丁改为随离线引擎分发，按原包声明自动注入，无需手动勾选（解决掌上渤海等 UUMos SDK 卡「安全连接建立中」）。<br>
+• 修正流式解压在「小压缩块 → 大输出」时丢数据的问题。<br>
+• 发版改为单架构：每台电脑只构建本机架构，不再交叉构建另一架构；本次仅发布 arm64 包，体积更小。<br>
+</div>
+]]></description>
+            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-1.5-arm64.zip" length="380987773" type="application/octet-stream" sparkle:edSignature="NAyksw6rkyctDBvh07b6RBynbHPlGZiUD+TE1fidRd3GE2rTqmiZj6B64o2YT8n2UiA3ImrIXxZIB4xwoxZZAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools63-61.delta" sparkle:deltaFrom="61" length="39777662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aiyr7SL932CU9YQcywimcCYkP0eXdWgYF37WpEVw5vqJv0ZoWKZqjSEKi3DZ2EDayRPUxvFL7mgYa+7OmnV6Bg=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools63-60.delta" sparkle:deltaFrom="60" length="39371098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1Myl11Grrw94lIlHzO7T3rtev5jfsDg4iRSNg7R+v7ON84sDoAKke3v9CZxzUyuY9OpkfwnBgfXeuKi7jmfQDQ=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools63-58.delta" sparkle:deltaFrom="58" length="40176874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wCgCQvLMbKKlAvVXg6v1nhRf54nwh4XDIoSti7jNM/63BgBSjtrldHgSYxdCbcNSAEfAKO64pnMgE7YKXtafDQ=="/>
+                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools63-57.delta" sparkle:deltaFrom="57" length="45835234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n9j6Qe4rXlCNPFQZC81SMBVkH2/0i6u+MMD2MW6BjZAmemWCXjjExOieYH98cGbqsN1stPwGqFcTXvVHJidGDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4</title>
             <pubDate>Thu, 26 Nov 2026 20:58:14 +0800</pubDate>
             <sparkle:version>61</sparkle:version>
@@ -52,34 +78,6 @@ mogoTools 1.2 更新内容<br>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools60-58.delta" sparkle:deltaFrom="58" length="1284434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="57NfJb8ERyky4QJut45c5dqAqNo0kj+ZETs/hVJNJRYoG7OcGlkcDCHCGRk67A+LcSR171kiG8N4LlivpVP5Dw=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools60-57.delta" sparkle:deltaFrom="57" length="8252138" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P2ThbPOWA7dC5Vp/m4tF7oa1ZY4lYlt8eIJ4N6Mk1i5SG1T1XnTdx1/pJH4cahrCi3hz4zMQzU+SgOdYQgs2CA=="/>
                 <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools60-53.delta" sparkle:deltaFrom="53" length="90242078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E2HtUV4jHFDA0uxfNqGXQDnRWl3Kmh7IURmFmnxPGh3p/evWvlb5Be9h1bmrOcbUHyxBhH46vrBGphYAqbcMAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.1</title>
-            <pubDate>Thu, 26 Nov 2026 14:32:52 +0800</pubDate>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div>
-mogoTools 1.1 更新内容<br>
-<br>
-本次更新聚焦设备工具箱：新增爱思同款「描述文件管理」，修复虚拟定位与设备信息显示问题。<br>
-<br>
-• 新增「描述文件管理」：复刻爱思助手三栏界面，左侧显示当前设备信息，中间是合并后的描述文件列表，右侧以卡片展示文件 ID、名称、版本号、使用者、唯一码、状态、是否可移除与文件描述。<br>
-• 同时支持 .mobileconfig 配置描述文件与 .mobileprovision 供应描述文件，可添加、安装、移除、刷新；含 MDM 管理载荷的描述文件默认禁止移除，避免设备失联。<br>
-• 描述文件可直接拖入页面：松开即自动安装到当前设备，支持一次拖入多个，过程与结果只在底栏日志显示，不再自动弹出日志窗口。<br>
-• 修复虚拟定位在 iOS 17+ 上「开启后不生效」：补齐调试隧道检查与隧道参数，并识别命令内部报错却返回成功退出码的假绿灯，隧道未就绪时明确提示。<br>
-• 屏蔽 iOS 更新发送描述文件时不再弹出日志浮层，日志统一在底栏显示。<br>
-• 修复「我的设备」里颜色显示为「色号 1」的问题，iPhone 14 Pro Max 正确显示「暗紫色」；未知机型仍保留色号，不做猜测。<br>
-• 内置 Tailscale Funnel 公网隧道，临时公网访问不再依赖额外安装 Tailscale 客户端。<br>
-• 手机伴生应用改为 mogo 设备资料页，支持由 Mac 发起投屏授权共享。<br>
-</div>
-]]></description>
-            <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools-1.1-arm64.zip" length="360662187" type="application/octet-stream" sparkle:edSignature="9yFUnvRn1S2nxlnTUNaxLpZQvuDCvdO3rSPEZnKAVLsK5qG2vTLV3pSwyL1ruwSthtzz9ClGBJOIBGe1TjoGBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools58-57.delta" sparkle:deltaFrom="57" length="8253090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5XCxNGCh5XAJXhGRTByvS3f2bPRXn0fMNxCwV+isZHSZx0ZoEYbLmGueUnE0B7mYm5e5/HwfU7ct581in4xQBA=="/>
-                <enclosure url="https://github.com/rskdwypy-pixel/codesign4qc-releases/releases/download/builds-arm64/mogoTools58-53.delta" sparkle:deltaFrom="53" length="90247378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="979056" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tfiIbtxWq4RbbG4ObMYbCYUBHUGG1s8PwaehL3hukrVKKUD9zcOt3IZLr8BYHHW/CijF3jcjLetfJ0ZirtjiDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
